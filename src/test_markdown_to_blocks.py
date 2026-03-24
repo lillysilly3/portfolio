@@ -58,3 +58,6 @@ This is last paragraph
             blocks,
             []
         )
+
+if __name__ == "__main__":
+    unittest.main()

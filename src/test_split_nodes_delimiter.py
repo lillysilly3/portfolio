@@ -45,3 +45,6 @@ class TestSplitNodesDelimiter(unittest.TestCase):
             TextNode("world", TextType.ITALIC),
             TextNode(" today", TextType.TEXT),
         ])
+    
+if __name__ == "__main__":
+    unittest.main()

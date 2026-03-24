@@ -82,3 +82,6 @@ class TestSplitNodesImage(unittest.TestCase):
         )
         new_nodes = split_nodes_image([node])
         self.assertListEqual([node], new_nodes)
+
+if __name__ == "__main__":
+    unittest.main()

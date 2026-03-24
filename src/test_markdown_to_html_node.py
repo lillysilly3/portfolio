@@ -92,3 +92,7 @@ some code
         self.assertIn("<blockquote>This is a quote</blockquote>", html)
         self.assertIn("<ol><li>item one</li><li>item two</li></ol>", html)
         self.assertIn("<pre><code>", html)
+
+
+if __name__ == "__main__":
+    unittest.main()

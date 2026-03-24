@@ -90,3 +90,6 @@ class TestSplitNodesLink(unittest.TestCase):
         )
         new_nodes = split_nodes_link([node])
         self.assertListEqual([node], new_nodes)
+
+if __name__ == "__main__":
+    unittest.main()
