@@ -15,4 +15,11 @@ def main():
 
     generate_page("content/index.md", "template.html", "public/index.html")
 
+    for root, dirs, files in os.walk("./content"):
+        for file in files:
+            if file.endswith(".md"):
+                from_path = os.path.join(root, file)
+                dest_path = from_path.replace("./content", "./public").replace(".md", ".html")
+                generate_page(from_path, "template.html", dest_path)
+
 main()
