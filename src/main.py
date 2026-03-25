@@ -1,25 +1,23 @@
 import shutil
 import os
+import sys
 
 from textnode import TextNode, TextType
 from copystatic import copy_files_recursive
-from gencontent import generate_page
+from gencontent import generate_pages_recursive
 
 def main():
+    basepath = "/"
+    if len(sys.argv) > 1:
+        basepath = sys.argv[1]
+    
     node = TextNode("This is some anchor text", TextType.LINK, "https://www.boot.dev")
     print(node)
 
-    if os.path.exists("./public"):
-        shutil.rmtree("./public")
-    copy_files_recursive("./static", "./public")
+    if os.path.exists("./docs"):
+        shutil.rmtree("./docs")
+    copy_files_recursive("./static", "./docs")
 
-    generate_page("content/index.md", "template.html", "public/index.html")
-
-    for root, dirs, files in os.walk("./content"):
-        for file in files:
-            if file.endswith(".md"):
-                from_path = os.path.join(root, file)
-                dest_path = from_path.replace("./content", "./public").replace(".md", ".html")
-                generate_page(from_path, "template.html", dest_path)
+    generate_pages_recursive("./content", "template.html", "./docs", basepath)
 
 main()
