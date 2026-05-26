@@ -1,46 +1,23 @@
-# Tolkien Fan Club
+# Paulina's Portfolio
 
-![JRR Tolkien sitting](/images/tolkien.png)
+[Email](mailto:paulinasukure@gmail.com) | [GitHub](https://github.com/lillysilly3)
 
-Here's the deal, **I like Tolkien**.
+![Ruby on Rails meme](/images/ror_meme.png)
 
-> "I am in fact a Hobbit in all but size."
->
-> -- J.R.R. Tolkien
+## Projects
 
-## Blog posts
+[![Pokedex CLI](/images/pokedex1.png)](/projects/pokedex)
 
-- [Why Glorfindel is More Impressive than Legolas](/blog/glorfindel)
-- [Why Tom Bombadil Was a Mistake](/blog/tom)
-- [The Unparalleled Majesty of "The Lord of the Rings"](/blog/majesty)
+**Pokedex CLI** - Go command-line app to explore and catch Pokémon
 
-## Reasons I like Tolkien
+[![Journal App](/images/journal3.png)](/projects/journal)
 
-- You can spend years studying the legendarium and still not understand its depths
-- It can be enjoyed by children and adults alike
-- Disney _didn't ruin it_ (okay, but Amazon might have)
-- It created an entirely new genre of fantasy
+**Journal App** - Python desktop journaling app with mood tracking
 
-## My favorite characters (in order)
+[![Asteroids Game](/images/pygame1.png)](/projects/pygame)
 
-1. Gandalf
-2. Bilbo
-3. Sam
-4. Glorfindel
-5. Galadriel
-6. Elrond
-7. Thorin
-8. Sauron
-9. Aragorn
+**Asteroids Game** - Classic arcade game using Python and Pygame
 
-Here's what `elflang` looks like (the perfect coding language):
+[![Static Site Generator](/images/ssg.png)](/projects/ssg)
 
-```
-func main(){
-    fmt.Println("Aiya, Ambar!")
-}
-```
-
-Want to get in touch? [Contact me here](/contact).
-
-This site was generated with a custom-built [static site generator](https://www.boot.dev/courses/build-static-site-generator-python) from the course on [Boot.dev](https://www.boot.dev).
+**Static Site Generator** - Python SSG that powers this portfolio
