@@ -2,15 +2,18 @@
 
 A personal desktop journaling application built with Python.
 
-![Journal screenshot 1](/images/journal1.png)
+![Journal screenshot 2](/images/journal2.png)
 
 ## Features
 
 - Password protection set up and reset. Reseting password deletes all entries
-![Journal screenshot 2](/images/journal2.png)
 - Daily journal entries with mood tracking
 - Color-coded calendar to browse entries
 - Mood tags: Happy, Neutral, Sad, Angry, Tired, Energetic
+
+
+![Journal screenshot 1](/images/journal1.png)
+
 ![Journal screenshot 3](/images/journal3.png)
 
 ## Tech Stack
