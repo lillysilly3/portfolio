@@ -24,19 +24,24 @@ A personal desktop journaling application built with Python.
 
 ## Project Structure
 
-- `main.py` - Application entry point
-- `login.py` - Login screen
-- `setup.py` - First-time password setup
-- `journal.py` - Main journal screen
-- `calendar_widget.py` - Calendar component
-- `database.py` - SQLite database client
-- `moods.py` - Mood definitions and color mappings
-- `theme.py` - Application color theme
+journal/
+├── main.py                    # App entry point
+├── app/
+│   ├── screens/
+│   │   ├── login.py           # Login screen
+│   │   ├── setup.py           # Password setup screen
+│   │   └── journal.py         # Main journal screen
+│   ├── components/
+│   │   ├── calendar_widget.py # Calendar component
+│   │   └── moods.py           # Mood definitions
+│   └── utils/
+│       ├── database.py        # SQLite database client
+│       └── theme.py           # App color theme
+├── assets/                    # Reserved for future assets
+├── requirements.txt
+├── LICENSE
+└── .gitignore
 
-## How to Run
-
-pip install -r requirements.txt
-python main.py
 
 [🐙 View on GitHub](https://github.com/lillysilly3/journal)
 

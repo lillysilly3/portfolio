@@ -46,3 +46,8 @@ Personal portfolio website showcasing my projects build in Python.
 
 ```bash
 ./build.sh
+```
+
+## Acknowledgments
+
+This project was built as part of the [Boot.dev](https://boot.dev) curriculum.
