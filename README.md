@@ -1,6 +1,6 @@
 # Paulina's Portfolio
 
-Personal portfolio website showcasing my projects.
+Personal portfolio website showcasing my projects build in Python.
 
 **Live site:** https://lillysilly3.github.io/portfolio/
 
@@ -11,26 +11,9 @@ Personal portfolio website showcasing my projects.
 - **Asteroids Game** - Classic arcade game with Pygame
 - **Static Site Generator** - Python SSG that powers this site
 
-## Built With
-
-Custom static site generator (SSG) built in Python.
-
 ## How the SSG Works
 
-┌─────────────┐
-│  static/    │──── CSS, images (source)
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐     ┌──────────────┐     ┌─────────┐     ┌─────────────────┐
-│  content/   │────>│   main.py    │────>│  docs/  │────>│  GitHub Pages   │
-│ (.md files) │     │    (SSG)     │     │(output) │     │    (website)    │
-└─────────────┘     └──────────────┘     └─────────┘     └─────────────────┘
-                           ▲
-                           │
-                    ┌──────┴───────┐
-                    │ template.html│
-                    └──────────────┘
+![SSG sceme](/images/ssg.png)
 
 1. `static/` → copied to `docs/` (CSS, images)
 2. `content/*.md` → converted to HTML using `template.html` → saved to `docs/`
@@ -50,11 +33,16 @@ Custom static site generator (SSG) built in Python.
 - `docs/` - Generated site (served by GitHub Pages)
 - `template.html` - HTML wrapper template
 
+## What I Learned
+
+- **Static Site Generation** - How to convert Markdown to HTML and build a complete site from source files
+- **Python** - Regex parsing, recursive file processing, HTML node generation
+- **Markdown Parsing** - Handling inline elements (bold, italic, links, images) and block elements (headings, lists, code blocks)
+- **CSS** - Responsive styling, flexbox layouts, hover effects
+- **Git & GitHub Pages** - Version control and deploying static sites
+- **Problem Solving** - Adding features like linked image support to handle `[![alt](img)](link)` syntax
+
 ## Build
 
 ```bash
 ./build.sh
-
-Author
-
-Paulina
