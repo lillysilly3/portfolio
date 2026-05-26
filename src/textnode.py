@@ -8,6 +8,7 @@ class TextType(Enum):
     CODE = "code"
     LINK = "link"
     IMAGE = "image"
+    LINKED_IMAGE = "linked_image"
 
 class TextNode:
     def __init__(self, text, text_type, url=None):
@@ -38,4 +39,9 @@ def text_node_to_html_node(text_node):
         return LeafNode("a", text_node.text, {"href": text_node.url})
     if text_node.text_type is TextType.IMAGE:
         return LeafNode("img", "", {"src": text_node.url, "alt": text_node.text})
+    if text_node.text_type is TextType.LINKED_IMAGE:
+        alt, img_url = text_node.text.split("|||")
+        from htmlnode import ParentNode
+        img_node = LeafNode("img", "", {"src": img_url, "alt": alt})
+        return ParentNode("a", [img_node], {"href": text_node.url})
     raise Exception("Invalid type")

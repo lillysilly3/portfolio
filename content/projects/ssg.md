@@ -16,7 +16,7 @@ docs/         → served by GitHub Pages
 
 **Block elements:** Headings, paragraphs, code blocks, block quotes, ordered and unordered lists
 
-**Inline elements:** Bold, italic, inline code, links, and images
+**Inline elements:** Bold, italic, inline code, links, images and linked images
 
 ## Tech Stack
 
