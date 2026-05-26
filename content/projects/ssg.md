@@ -2,15 +2,14 @@
 
 A custom static site generator built in Python that powers this portfolio website.
 
-![SSG sceme](/images/ssg.png)
-
-
 ## How It Works
 
 static/       → copied to docs/ (CSS, images)
 content/*.md  → converted to HTML → docs/
 template.html → wraps the HTML content
 docs/         → served by GitHub Pages
+
+![SSG sceme](/images/ssg.png)
 
 ## Supported Markdown Features
 
