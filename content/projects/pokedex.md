@@ -2,10 +2,6 @@
 
 A command-line application built in Go that lets you explore and catch Pokémon from the terminal.
 
-![Pokedex screenshot 1](/images/pokedex1.png)
-
-![Pokedex screenshot 2](/images/pokedex2.png)
-
 ## Features
 
 - Browse Pokémon locations with pagination
@@ -13,6 +9,10 @@ A command-line application built in Go that lets you explore and catch Pokémon 
 - Catch mechanics based on base experience
 - View and inspect caught Pokémon
 - Response caching for performance
+
+![Pokedex screenshot 1](/images/pokedex1.png)
+
+![Pokedex screenshot 2](/images/pokedex2.png)
 
 ## Tech Stack
 
@@ -32,6 +32,6 @@ A command-line application built in Go that lets you explore and catch Pokémon 
 
 go build -o pokedex && ./pokedex
 
-[View on GitHub](https://github.com/lillysilly3/pokedex)
+[🐙 View on GitHub](https://github.com/lillysilly3/pokedex)
 
 [← Back to Portfolio](/)

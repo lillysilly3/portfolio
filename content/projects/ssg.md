@@ -35,6 +35,6 @@ docs/         → served by GitHub Pages
 
 ./build.sh
 
-[View on GitHub](https://github.com/lillysilly3/portfolio)
+[🐙 View on GitHub](https://github.com/lillysilly3/portfolio)
 
 [← Back to Portfolio](/)

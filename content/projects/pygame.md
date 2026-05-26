@@ -4,8 +4,6 @@ A recreation of the classic Asteroids arcade game using Python and Pygame.
 
 ![Asteroid's game screenshot 1](/images/pygame1.png)
 
-![Asteroid's game screenshot 2](/images/pygame2.png)
-
 ## Features
 
 - Player ship with rotation and thrust controls
@@ -13,6 +11,8 @@ A recreation of the classic Asteroids arcade game using Python and Pygame.
 - Projectile shooting mechanics
 - Collision detection
 - Game loop with sprite management
+
+![Asteroid's game screenshot 2](/images/pygame2.png)
 
 ## Tech Stack
 
@@ -35,6 +35,6 @@ A recreation of the classic Asteroids arcade game using Python and Pygame.
 source .venv/bin/activate
 python main.py
 
-[View on GitHub](https://github.com/lillysilly3/pygame)
+[🐙 View on GitHub](https://github.com/lillysilly3/pygame)
 
 [← Back to Portfolio](/)
