@@ -27,10 +27,7 @@ A command-line application built in Go that lets you explore and catch Pokémon 
 - `repl_test.go` - Test suite
 - `internal/pokeapi/` - PokéAPI client with caching
 
-## How to Run
 
-go build -o pokedex && ./pokedex
-
-[🐙 View on GitHub](https://github.com/lillysilly3/pokedex)
+[Full project on GitHub](https://github.com/lillysilly3/pokedex)
 
 [← Back to Portfolio](/)

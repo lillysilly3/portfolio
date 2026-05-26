@@ -43,6 +43,6 @@ journal/
 └── .gitignore
 
 
-[🐙 View on GitHub](https://github.com/lillysilly3/journal)
+[Full project on GitHub](https://github.com/lillysilly3/journal)
 
 [← Back to Portfolio](/)

@@ -30,11 +30,6 @@ A recreation of the classic Asteroids arcade game using Python and Pygame.
 - `circleshape.py` - Base collision class
 - `constants.py` - Game configuration
 
-## How to Run
-
-source .venv/bin/activate
-python main.py
-
-[🐙 View on GitHub](https://github.com/lillysilly3/pygame)
+[Full project on GitHub](https://github.com/lillysilly3/pygame)
 
 [← Back to Portfolio](/)

@@ -31,10 +31,6 @@ docs/         → served by GitHub Pages
 - Uses template for consistent styling
 - Generates full site with one command
 
-## How to Run
-
-./build.sh
-
-[🐙 View on GitHub](https://github.com/lillysilly3/portfolio)
+[Full project on GitHub](https://github.com/lillysilly3/portfolio)
 
 [← Back to Portfolio](/)
