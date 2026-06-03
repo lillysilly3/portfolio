@@ -24,6 +24,7 @@ A personal desktop journaling application built with Python.
 
 ## Project Structure
 
+```
 journal/
 ├── main.py                    # App entry point
 ├── app/
@@ -41,6 +42,7 @@ journal/
 ├── requirements.txt
 ├── LICENSE
 └── .gitignore
+```
 
 
 [Full project on GitHub](https://github.com/lillysilly3/journal)

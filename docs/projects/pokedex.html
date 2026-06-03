@@ -8,6 +8,53 @@
   </head>
 
   <body>
-    <article><div><h1>Pokedex CLI</h1><p>A command-line application built in Go that lets you explore and catch Pokémon from the terminal.</p><h2>Features</h2><ul><li>Browse Pokémon locations with pagination</li><li>Explore areas to discover creatures</li><li>Catch mechanics based on base experience</li><li>View and inspect caught Pokémon</li><li>Response caching for performance</li></ul><p><img src="/portfolio/images/pokedex1.png" alt="Pokedex screenshot 1"></img> <img src="/portfolio/images/pokedex2.png" alt="Pokedex screenshot 2"></img></p><h2>Tech Stack</h2><ul><li>Go 1.21+</li><li>REST API integration with PokeAPI</li><li>Go routines for concurrency</li></ul><h2>Project Structure</h2><ul><li><code>main.go</code> - Entry point</li><li><code>repl.go</code> - Read-Eval-Print Loop logic</li><li><code>commands.go</code> - CLI command implementations</li><li><code>repl_test.go</code> - Test suite</li><li><code>internal/pokeapi/</code> - PokéAPI client with caching</li></ul><h2>How to Run</h2><p>go build -o pokedex && ./pokedex</p><p><a href="https://github.com/lillysilly3/pokedex">🐙 View on GitHub</a></p><p><a href="/portfolio/">← Back to Portfolio</a></p></div></article>
+    <article><div><h1>Pokedex CLI</h1><p>A command-line application built in Go that lets you explore and catch Pokémon from the terminal.</p><h2>Features</h2><ul><li>Browse Pokémon locations with pagination</li><li>Explore areas to discover creatures</li><li>Catch mechanics based on base experience</li><li>View and inspect caught Pokémon</li><li>Response caching for performance</li></ul><pre><code>Pokedex > help
+Welcome to the Pokedex!
+Usage:
+help: Displays a help message
+map: Displays the names of next 20 location areas
+mapb: Displays the names of previous 20 location areas
+explore: Displays the names of pokemon in given area
+catch: Attemps to catch a pokemon and add it to your Pokedex
+inspect: Takes the name of a Pokemon and prints the name, height, weight, stats and type(s) of the Pokemon
+pokedex: Prints a list of all the names of the Pokemon that were caught
+exit: Exit the Pokedex
+Pokedex > map
+canalave-city-area
+eterna-city-area
+pastoria-city-area
+sunyshore-city-area
+sinnoh-route-204-south
+...
+Pokedex > explore pastoria-city-area
+Exploring pastoria-city-area...
+Found Pokemon:
+ - shellos
+ - floatzel
+ - buizel
+ - wingull
+Pokedex > catch pikachu
+Throwing a Pokeball at pikachu...
+pikachu was caught!
+You may now inspect it with the inspect command.
+Pokedex > inspect pikachu
+Name: pikachu
+Height: 4
+Weight: 60
+Stats:
+ -hp: 35
+ -attack: 55
+ -defense: 40
+ -special-attack: 50
+ -special-defense: 50
+ -speed: 90
+Types:
+ -electric
+Pokedex > pokedex
+Your Pokedex:
+ -pikachu
+Pokedex > exit
+Closing the Pokedex... Goodbye!
+</code></pre><h2>Tech Stack</h2><ul><li>Go 1.21+</li><li>REST API integration with PokeAPI</li><li>Go routines for concurrency</li></ul><h2>Project Structure</h2><ul><li><code>main.go</code> - Entry point</li><li><code>repl.go</code> - Read-Eval-Print Loop logic</li><li><code>commands.go</code> - CLI command implementations</li><li><code>repl_test.go</code> - Test suite</li><li><code>internal/pokeapi/</code> - PokéAPI client with caching</li></ul><p><a href="https://github.com/lillysilly3/pokedex">Full project on GitHub</a></p><p><a href="/portfolio/">← Back to Portfolio</a></p></div></article>
   </body>
 </html>
