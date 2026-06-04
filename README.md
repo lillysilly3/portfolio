@@ -6,10 +6,15 @@ Personal portfolio website showcasing my projects build in Python.
 
 ## Projects Featured
 
-- **Pokedex CLI** - Go command-line app using PokeAPI
+- **Friend List App** - Ruby on Rails app for managing your personal friend list
+- **Pokedex CLI** - Go command-line app to explore and catch Pokémon
 - **Journal App** - Python desktop app with mood tracking
 - **Asteroids Game** - Classic arcade game with Pygame
 - **Static Site Generator** - Python SSG that powers this site
+- **MellowAI** - CLI AI coding agent powered by Google Gemini
+- **Ruby Adventures** - Collection of Ruby exercises and mini projects
+- **Cryptocurrency Converter** - Ruby CLI app to convert crypto to USD or EUR
+- **Simple Note App** - Ruby CLI note-taking app with persistent storage
 
 ## Prerequisites
 
