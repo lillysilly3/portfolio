@@ -22,7 +22,7 @@ Personal portfolio website showcasing my projects build in Python.
 
 ## How the SSG Works
 
-![SSG sceme](/images/ssg.png)
+![SSG scheme](/images/ssg.png)
 
 1. `static/` → copied to `docs/` (CSS, images)
 2. `content/*.md` → converted to HTML using `template.html` → saved to `docs/`
