@@ -12,31 +12,21 @@ A command-line note-taking application built in Ruby. Add, edit, delete and view
 
 ```
 ########## Simple Note Application ##########
-a) Add
-b) Edit
-d) Delete
-s) Show All
-q) Quit
-
+a) Add  b) Edit  d) Delete  s) Show All  q) Quit
 > a
 Note: Buy groceries
-
 > s
 ------------------------ 1 ------------------------
-Date: 2026-06-03 12:00:00
-Note: Buy groceries
+Date: 2026-06-03 12:00:00 | Note: Buy groceries
 ------------------------------------------------------
-
 > b
 Enter Index Number to edit: 1
 Note: Buy groceries and cook dinner
 ********************Entry Updated********************
-
 > d
 Enter Index Number to delete: 1
 Are you sure? (y/n): y
 ********************Entry Deleted********************
-
 > q
 #################### Goodbye! ####################
 ```

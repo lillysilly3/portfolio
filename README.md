@@ -11,6 +11,10 @@ Personal portfolio website showcasing my projects build in Python.
 - **Asteroids Game** - Classic arcade game with Pygame
 - **Static Site Generator** - Python SSG that powers this site
 
+## Prerequisites
+
+- Python 3.x+
+
 ## How the SSG Works
 
 ![SSG sceme](/images/ssg.png)
@@ -33,7 +37,7 @@ Personal portfolio website showcasing my projects build in Python.
 - `docs/` - Generated site (served by GitHub Pages)
 - `template.html` - HTML wrapper template
 
-## What I Learned
+## What I Explored
 
 - **Static Site Generation** - How to convert Markdown to HTML and build a complete site from source files
 - **Python** - Regex parsing, recursive file processing, HTML node generation

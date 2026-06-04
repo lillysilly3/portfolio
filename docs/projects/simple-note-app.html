@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simple Note App</title>
+    <link href="/portfolio/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <article><div><h1>Simple Note App</h1><p>A command-line note-taking application built in Ruby. Add, edit, delete and view notes — all stored persistently on disk.</p><h2>Features</h2><ul><li>Add notes</li><li>Edit existing notes</li><li>Delete notes with confirmation prompt</li><li>View all notes with timestamps</li><li>Notes persist between sessions using PStore</li></ul><pre><code>########## Simple Note Application ##########
+a) Add  b) Edit  d) Delete  s) Show All  q) Quit
+> a
+Note: Buy groceries
+> s
+------------------------ 1 ------------------------
+Date: 2026-06-03 12:00:00 | Note: Buy groceries
+------------------------------------------------------
+> b
+Enter Index Number to edit: 1
+Note: Buy groceries and cook dinner
+********************Entry Updated********************
+> d
+Enter Index Number to delete: 1
+Are you sure? (y/n): y
+********************Entry Deleted********************
+> q
+#################### Goodbye! ####################
+</code></pre><h2>Tech Stack</h2><ul><li>Ruby 2.7+</li><li>Ruby built-in <code>PStore</code> for persistence</li></ul><h2>Project Structure</h2><ul><li><code>main.rb</code> - Entry point</li><li><code>application.rb</code> - Main application loop</li><li><code>menu.rb</code> - User interaction and menu actions</li><li><code>manager.rb</code> - Business logic layer</li><li><code>database.rb</code> - PStore persistence layer</li><li><code>note.rb</code> - Note model</li></ul><p><a href="https://github.com/lillysilly3/simple-note-app">Full project on GitHub</a></p><p><a href="/portfolio/">← Back to Portfolio</a></p></div></article>
+  </body>
+</html>

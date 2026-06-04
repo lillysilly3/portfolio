@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MellowAI</title>
+    <link href="/portfolio/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <article><div><h1>MellowAI</h1><p>A CLI AI coding agent powered by Google Gemini. Give it a natural language prompt and it will autonomously read, write, and run code in a sandboxed working directory to complete the task.</p><h2>Features</h2><ul><li>Natural language prompts from the command line</li><li>Autonomous multi-step reasoning with up to 20 iterations</li><li>Function calling tools: list files, read files, write files, run Python files</li><li>Sandboxed working directory to prevent access outside the project</li><li>Verbose mode to inspect every function call and token usage</li></ul><pre><code>$ uv run python main.py "add a function that multiplies two numbers" --verbose
+User prompt: add a function that multiplies two numbers
+Prompt tokens: 412
+Response tokens: 87
+-> {'output': 'main.py\ncalculator/\n  operations.py\n  __init__.py\n'}
+-> {'output': 'def add(a, b):\n    return a + b\n\ndef subtract(a, b):\n    return a - b\n'}
+-> {'output': 'File written successfully'}
+Done! I added a multiply(a, b) function to calculator/operations.py.
+</code></pre><h2>Tech Stack</h2><ul><li>Python 3.13+</li><li>Google Gemini API (<code>google-genai</code> SDK)</li><li><code>uv</code> for dependency management</li></ul><h2>Project Structure</h2><ul><li><code>main.py</code> — Entry point and agent loop</li><li><code>call_function.py</code> — Function call dispatcher</li><li><code>prompts.py</code> — System prompt</li><li><code>config.py</code> — Configuration constants</li><li><code>functions/</code> — Tool implementations (read, write, list, run)</li><li><code>tests/</code> — Test suite</li><li><code>calculator/</code> — Sample project for the agent to work on</li></ul><p><a href="https://github.com/lillysilly3/mellow-ai">Full project on GitHub</a></p><p><a href="/portfolio/">← Back to Portfolio</a></p></div></article>
+  </body>
+</html>

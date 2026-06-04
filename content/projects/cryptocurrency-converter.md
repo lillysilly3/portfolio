@@ -15,7 +15,6 @@ a) Convert to USD
 b) Convert to EUR
 q) Quit
 Action: a
-
 -----------Available Coins-----------
 BTC, ETH, XRP, DASH, LTC
 Coin: BTC
