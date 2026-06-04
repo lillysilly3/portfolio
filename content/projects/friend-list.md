@@ -33,6 +33,7 @@ A Ruby on Rails web application for managing your personal friend list. Users ca
 - `config/` - Routes, database, and environment configuration
 - `test/` - Model and controller tests
 
+
 [Full project on GitHub](https://github.com/lillysilly3/friend_list_app)
 
 [← Back to Portfolio](/)
